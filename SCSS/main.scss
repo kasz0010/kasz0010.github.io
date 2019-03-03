@@ -1,17 +1,18 @@
 html, body {
   height: 100%;
   font-family: Lato;
+  background: url('../img/moon.jpg')
  }
-* {
-    box-sizing: border-box;
-  }
+// * {
+//     box-sizing: border-box;
+//   }
 body {
  //  line-height: 1.5rem;
  //  letter-spacing: 1px;
  //  font-family: Lato, sans-serif;
  // background-image: url(../img/moon.jpg);
  // background-size:cover ;
- // // width:70%;
+ // width:70%;
  background: url('../img/moon.jpg') no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -52,7 +53,7 @@ h1{
      position: relative;
      float: right;
      font-size: 20px;
-     color: white;
+     color: black;
      font-family: Lato;
 
    }

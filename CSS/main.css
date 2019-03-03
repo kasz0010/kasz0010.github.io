@@ -1,9 +1,7 @@
 html, body {
   height: 100%;
-  font-family: Lato; }
-
-* {
-  box-sizing: border-box; }
+  font-family: Lato;
+  background: url("../img/moon.jpg"); }
 
 body {
   background: url("../img/moon.jpg") no-repeat center center fixed;
@@ -36,7 +34,7 @@ p {
   position: relative;
   float: right;
   font-size: 20px;
-  color: white;
+  color: black;
   font-family: Lato; }
 
 header {
