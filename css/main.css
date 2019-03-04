@@ -24,6 +24,9 @@ h1 {
   font-size: 20px;
   font-family: lato;
   color: white;
+  position: relative;
+  left: 50px;
+  top: 350px;
   bottom: 100px;
   right: 80px;
   text-align: justify; }
