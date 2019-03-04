@@ -1,11 +1,6 @@
 html {
   height: auto;
-  font-family: Lato;
-  background: url("../img/moon.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+  font-family: Lato; }
 
 * {
   box-sizing: border-box; }
