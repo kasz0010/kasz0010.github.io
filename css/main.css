@@ -70,10 +70,94 @@ header {
   font-size: 1rem;
   color: #44B2E2;
   background-color: #27272B;
-  border-top: 5px solid #44B2E2;
+  border-top: 4px solid #44B2E2;
   text-align: right;
-  padding: 30px;
+  padding: 20px;
   box-sizing: border-box; }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.form,
+.input,
+.select,
+.textarea {
+  margin: 0;
+  padding: 10; }
+
+div.box {
+  margin: 0 auto;
+  width: 500px;
+  background: #44B2E2;
+  position: relative;
+  top: 50px;
+  border: 5px solid #44B2E2;
+  float: left; }
+
+div.box h1 {
+  color: #44B2E2;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 5px 0 5px 5px;
+  border-bottom: 1px solid #44B2E2;
+  border-top: 1px solid #44B2E2; }
+
+div.box label {
+  width: 100%;
+  display: block;
+  background: #27272B;
+  border-top: 1px solid #44B2E2;
+  border-bottom: 1px solid #44B2E2;
+  padding: 10px 0 10px 0; }
+
+div.box label span {
+  display: block;
+  color: #44B2E2;
+  font-size: 0.8rem;
+  float: left;
+  width: 100px;
+  text-align: right;
+  padding: 4px 25px 0 0; }
+
+div.box .registry {
+  padding: 10px 10px;
+  width: 200px;
+  background: black;
+  border-bottom: 1px double #44B2E2;
+  border-top: 1px double #44B2E2;
+  border-left: 1px double #44B2E2;
+  border-right: 1px double #44B2E2;
+  color: white;
+  font-size: 1.2rem; }
+
+div.box .message {
+  padding: 5px 7px;
+  width: 350px;
+  background: black;
+  border-bottom: 1px double #44B2E2;
+  border-top: 1px double #44B2E2;
+  border-left: 1px double #44B2E2;
+  border-right: 1px double #44B2E2;
+  overflow: hidden;
+  height: 150px;
+  color: white;
+  font-size: 1.5rem; }
+
+div.box .button {
+  margin: 0 0 10px 0;
+  padding: 4px 7px;
+  background: #27272B;
+  border: 0px;
+  position: relative;
+  top: 10px;
+  left: 382px;
+  width: 100px;
+  border: 5px solid #44B2E2;
+  color: #44B2E2;
+  font-family: Lato;
+  font-size: 1rem; }
 
 #menu {
   position: absolute;
