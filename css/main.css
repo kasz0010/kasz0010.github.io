@@ -12,7 +12,11 @@ html {
 
 body {
   margin: 0;
-  background: url("../img/moon.jpg"); }
+  background: url("../img/moon.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
 
 header {
   position: inherit;
